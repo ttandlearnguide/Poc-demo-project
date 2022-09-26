@@ -1,18 +1,147 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="MyTest1Repository"
-id="b687ea74-8907-44a4-9491-7b45df55852b">
-  <codegen
-  classname="MyTest1Repository"
-  namespace="MyTest1"/>
-  <rootfolder
-  name="Root"
-  id="f7a12867-e15b-4354-8a73-4ecb0a88fa03"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+﻿<repository
+id="b687ea74-8907-44a4-9491-7b45df55852b"
+name="MyTest1Repository">
+	<codegen
+	classname="MyTest1Repository"
+	namespace="MyTest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f7a12867-e15b-4354-8a73-4ecb0a88fa03"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="unknown,mobileapp,androidapp"
+		capname="mobileapp"
+		id="339d820a-f130-4577-8a5c-519acc3b4ba4"
+		isrooted="True"
+		name="ComSodexoFlexogift"
+		refimgid="94f0020d-3d0b-4739-82af-772c491fce7e"
+		refpath="/mobileapp[@title='com.sodexo.flexogift']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="7621a353-f7ec-4098-8278-cfc1040e8981"
+			isrooted="True"
+			name="Frame"
+			refpath="/mobileapp[@title='com.sodexo.flexogift']/form[@title='MainActivity']/container[@containertype='Linear']/container[@containertype='Frame']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,androidelement,mobileuielement"
+				capname="text"
+				id="877336db-0ddc-415a-ab60-7b5dc4311d27"
+				name="ComFacebookReactViewsTextinputReact"
+				refimgid="ad598dad-1654-45c3-a937-a37295ef32fa"
+				refpath="/mobileapp[@title='com.sodexo.flexogift']/form[@title='MainActivity']/container[@containertype='Linear']/container[@containertype='Frame']/androidelement/androidelement[@rid='content']/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/text[3]"
+				robustPath=""
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.sodexo.flexogift']/form[@title='MainActivity']/container[@containertype='Linear']/container[@containertype='Frame']/?/?/androidelement[@rid='content']/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement[4]/text[3]
+				</item>
+				<item
+				addcaps="text,androidelement,mobileuielement"
+				capname="text"
+				id="639c32b4-9453-4be3-b693-9d4087371545"
+				name="GirişYapKayıtOl"
+				refimgid="7e0b33f4-c6fa-4e2b-af8f-0c086b4238dd"
+				refpath="/mobileapp[@title='com.sodexo.flexogift']/form[@title='MainActivity']/container[@containertype='Linear']/container[@containertype='Frame']/androidelement/androidelement[@rid='content']/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[3]/androidelement/text"
+				robustPath=""
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.sodexo.flexogift']/form[@title='MainActivity']/container[@containertype='Linear']/container[@containertype='Frame']/androidelement/androidelement[@rid='content']/androidelement/androidelement/androidelement/androidelement/androidelement[2]/androidelement/androidelement/androidelement/androidelement/androidelement[3]/?/?/text
+				</item>
+				<item
+				addcaps="text,androidelement,mobileuielement"
+				capname="text"
+				id="cfaf18a3-5edc-4c67-91fe-b33abf818e01"
+				name="GirişYap"
+				refimgid="e421b2e7-177b-4d39-b193-8792cde1a065"
+				refpath="/mobileapp[@title='com.sodexo.flexogift']/form[@title='MainActivity']/container[@containertype='Linear']/container[@containertype='Frame']/androidelement/androidelement[@rid='content']/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement/androidelement/androidelement[1]/text"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="5f223cda-7d47-4f0d-b1c1-6f0d72351c69"
+					name="Screenshot1">
+						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
+Dp/1Js3owAAAAABJRU5ErkJggg==
+					</image>
+					/mobileapp[@title='com.sodexo.flexogift']/form[@title='MainActivity']/container[@containertype='Linear']/container[@containertype='Frame']/androidelement/androidelement[@rid='content']/androidelement/androidelement/androidelement/androidelement/androidelement[4]/androidelement/androidelement/androidelement/androidelement/androidelement[1]/text
+				</item>
+				<basepath>
+					/mobileapp[@title='com.sodexo.flexogift']/form[@title='MainActivity']/container[@containertype='Linear']/container[@containertype='Frame']
+				</basepath>
+			</folder>
+			<basepath>
+				/mobileapp[@title='com.sodexo.flexogift']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABNSURBVDhPY6A6CA0NWQ/E//Hg9VClmAAo
+KYCmGCuGKscEQEmwAVAuVkBInqCCUQNGjgGEMFQpdoBLIS5xDABU0ICsGAtugCqlBmBgAAAcoXfL
+E78sAQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>

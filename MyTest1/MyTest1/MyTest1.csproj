@@ -81,6 +81,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>e3ff16e9-9ba3-4320-8f00-ab5bc04fc367</id>
     </Compile>
+    <Compile Include="BasicDemoRecord.cs">
+      <BoundTo>39137a4a-9fcc-4371-b992-a062b74a6cba</BoundTo>
+      <DependentUpon>BasicDemoRecord.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4aaa61ee-32a1-4659-8a9a-cd8ec588b61a</id>
+    </Compile>
+    <Compile Include="BasicDemoRecord.UserCode.cs">
+      <BoundTo>39137a4a-9fcc-4371-b992-a062b74a6cba</BoundTo>
+      <DependentUpon>BasicDemoRecord.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e7e4dc7b-5d98-4d43-9e3f-33db8659819a</id>
+    </Compile>
     <Compile Include="MyTest1Repository.cs">
       <BoundTo>923e0c8a-9ddb-485a-be3c-0b1e9f0f25cc</BoundTo>
       <DependentUpon>MyTest1Repository.rxrep</DependentUpon>
@@ -106,6 +118,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>fcbb416d-68f4-496e-a30d-289416fd735b</id>
+    </None>
+    <None Include="BasicDemoRecord.rxrec">
+      <BoundTo>923e0c8a-9ddb-485a-be3c-0b1e9f0f25cc</BoundTo>
+      <id>39137a4a-9fcc-4371-b992-a062b74a6cba</id>
+      <recordtableid>d4838334-b143-4c26-b218-6ebad36a616d</recordtableid>
     </None>
     <None Include="MyTest1Repository.rximg">
       <BoundTo>923e0c8a-9ddb-485a-be3c-0b1e9f0f25cc</BoundTo>

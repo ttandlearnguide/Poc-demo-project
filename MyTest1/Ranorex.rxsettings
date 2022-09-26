@@ -216,8 +216,8 @@ rxversion="10.1">
 		<pathbuildoptions
 		defcapcost="20"
 		kattr="0.5"
-		kcap="1.0"
-		ksib="10.0"
+		kcap="1"
+		ksib="10"
 		q="0.5">
 			<cap
 			cost="10"
@@ -398,17 +398,17 @@ rxversion="10.1">
 		&lt;![CDATA[{
   &quot;mobile.android.remote&quot;: [
     {
-      &quot;Id&quot;: &quot;aefe5e70-221d-4f44-b570-38e70d728e32&quot;,
+      &quot;Id&quot;: &quot;e20d282b-a575-4b4c-b7b1-e72faa8f4f66&quot;,
       &quot;ControlFlags&quot;: 0,
       &quot;CoreData&quot;: {},
       &quot;PluginData&quot;: {
         &quot;Platform&quot;: &quot;Android&quot;,
-        &quot;ConnectionType&quot;: &quot;WLAN&quot;
+        &quot;ConnectionType&quot;: &quot;USB&quot;
       },
       &quot;MetaData&quot;: {},
       &quot;Description&quot;: &quot;&quot;,
-      &quot;DisplayName&quot;: &quot;SM-G950F&quot;,
-      &quot;Url&quot;: &quot;192.168.1.26&quot;,
+      &quot;DisplayName&quot;: &quot;USB-638a978b&quot;,
+      &quot;Url&quot;: &quot;638a978b&quot;,
       &quot;DiscoveryPort&quot;: 31000,
       &quot;Port&quot;: 31000,
       &quot;Tags&quot;: []
@@ -627,11 +627,35 @@ rxversion="10.1">
 		True
 	</plugins.qt.quickfiltered>
 	<plugin.mobile.android.instrumentation>
+		<![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<InstrumentApkOptions>
+  <AutoSettingsAdjustment>true</AutoSettingsAdjustment>
+  <AvoidResourcesDecompiling>true</AvoidResourcesDecompiling>
+  <StaticInstrumentation>true</StaticInstrumentation>
+  <MultidexApplication>true</MultidexApplication>
+  <RedistributedSmali>true</RedistributedSmali>
+  <DebugInformation>true</DebugInformation>
+  <InstrumentationFlags />
+  <EnableWebTesting>true</EnableWebTesting>
+  <TreeSimplification>false</TreeSimplification>
+  <FullImageComparison>false</FullImageComparison>
+  <ExtractNativeLibs>false</ExtractNativeLibs>
+  <SetTestOnlyFalse>true</SetTestOnlyFalse>
+  <RIdClass />
+  <KeyStore />
+  <KeyAlias />
+  <JdkBinPath />
+  <KeyStorePass />
+  <KeyPass />
+  <SkipInstrumentation>false</SkipInstrumentation>
+  <SkipDeployment>false</SkipDeployment>
+  <ResignOnly>false</ResignOnly>
+</InstrumentApkOptions>]]>
 	</plugin.mobile.android.instrumentation>
 	<plugin.mobile.ios.instrumentation>
 	</plugin.mobile.ios.instrumentation>
 	<plugin.mobile.android.ConnectTimout>
-		10000ms
+		30000ms
 	</plugin.mobile.android.ConnectTimout>
 	<plugin.mobile.android.rpccalltimeout>
 		5000ms
@@ -640,13 +664,13 @@ rxversion="10.1">
 		15000ms
 	</plugin.mobile.DiscoveryTimeout>
 	<plugin.mobile.deploytimeout>
-		60000ms
+		600000ms
 	</plugin.mobile.deploytimeout>
 	<plugin.mobile.instrumenttimeout>
-		120000ms
+		600000ms
 	</plugin.mobile.instrumenttimeout>
 	<plugin.mobile.usbdiscoverytimeout>
-		60000ms
+		360000ms
 	</plugin.mobile.usbdiscoverytimeout>
 	<plugin.mobile.generaltooltimeout>
 		25000ms
@@ -655,7 +679,7 @@ rxversion="10.1">
 		50
 	</plugin.mobile.ios.maxcollectionviewvcellcount>
 	<plugin.mobile.android.UseAndroidOS>
-		False
+		True
 	</plugin.mobile.android.UseAndroidOS>
 	<plugin.mobile.android.ForceAndroidOS>
 		False
